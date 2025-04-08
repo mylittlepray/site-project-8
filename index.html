@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашние Печеньки</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">🍪 Вкусные Печеньки</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recipe-section">Рецепт дня</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Галерея</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4 bg-light">
+                    <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=3286&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="Шоколадное печенье">
+                    <div class="card-body">
+                        <h5 class="card-title">Ароматное шоколадное печенье с кусочками шоколада</h5>
+                        <p class="card-text">Насладитесь вкусом свежеиспеченного домашнего печенья. Этот простой рецепт подарит вам незабываемое удовольствие!</p>
+                        <a href="#recipe-section" class="btn btn-primary">Читать рецепт</a>
+                    </div>
+                </div>
+
+                <h2 class="mb-4">Другие вкусности</h2>
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6">
+                        <div class="card bg-light">
+                            <img src="https://images.unsplash.com/photo-1588345274200-42aa29063b78?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Овсяное печенье">
+                            <div class="card-body">
+                                <h5 class="card-title">Овсяное печенье</h5>
+                                <p class="card-text">Полезное и вкусное овсяное печенье для вашего чаепития.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-light">
+                            <img src="https://images.unsplash.com/photo-1670855271692-07b283bf196f?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Имбирное печенье">
+                            <div class="card-body">
+                                <h5 class="card-title">Пряное имбирное печенье</h5>
+                                <p class="card-text">Согревающий вкус в холодную зиму в каждом кусочке.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner bg-secondary">
+                        <div class="carousel-item active" style="height: 400px;">
+                            <img src="https://images.unsplash.com/photo-1662662523427-3c97dd5fdd8d?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Ассорти печенья">
+                        </div>
+                        <div class="carousel-item" style="height: 400px;">
+                            <img src="https://images.unsplash.com/photo-1610562275255-03b7fa0d4655?q=80&w=2861&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Имбирное новогоднее печенье">
+                        </div>
+                        <div class="carousel-item" style="height: 400px;">
+                            <img src="https://images.unsplash.com/photo-1583743089695-4b816a340f82?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Печенье с шоколадной крошкой">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form class="mb-4 bg-light p-3 rounded">
+                <h4 class="mb-3">Подпишитесь на рассылку</h4>
+                <div class="mb-3">
+                    <label for="emailInput" class="form-label">Ваш email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                </div>
+                <button type="submit" class="btn btn-primary">Подписаться</button>
+            </form>
+
+            <div class="accordion mb-4" id="faqAccordion">
+                <div class="accordion-item bg-light">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Часто задаваемые вопросы
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body bg-light">
+                            <p>Все наши рецепты тщательно протестированы и одобрены нашими кондитерами.</p>
+                        </div>
+                        <div class="accordion-body bg-light">
+                            <p>Мы используем только свежие и качественные ингредиенты.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mb-4">
+
+    <div class="row g-3 md-4 p-3">
+        <div class="col-md-4">
+            <div class="p-3 border bg-light rounded">Мука</div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border bg-light rounded">Сахар</div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border bg-light rounded">Яйца</div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border bg-light rounded">Сливочное масло</div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border bg-light rounded">Шоколадная крошка</div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border bg-light rounded">Разрыхлитель</div>
+        </div>
+    </div>
+
+    <h2 id="recipe-section" class="mt-5 mb-3">Мини-рецепт шоколадного печенья</h2>
+    <div class="card mb-4 bg-light">
+        <div class="card-body">
+            <h5 class="card-title">Ингредиенты:</h5>
+            <ul>
+                <li>100 г сливочного масла, комнатной температуры</li>
+                <li>100 г сахара</li>
+                <li>1 яйцо</li>
+                <li>1 ч.л. ванильного экстракта</li>
+                <li>150 г муки</li>
+                <li>1/2 ч.л. разрыхлителя</li>
+                <li>100 г шоколадной крошки</li>
+            </ul>
+            <h5 class="card-title">Инструкции:</h5>
+            <ol>
+                <li>Разогрейте духовку до 180°C. Застелите противень пергаментной бумагой.</li>
+                <li>В большой миске взбейте сливочное масло и сахар до кремообразного состояния.</li>
+                <li>Добавьте яйцо и ванильный экстракт, взбейте до однородности.</li>
+                <li>В отдельной миске смешайте муку и разрыхлитель. Постепенно добавьте сухие ингредиенты к влажным, перемешивая до образования теста.</li>
+                <li>Вмешайте шоколадную крошку.</li>
+                <li>Выложите тесто на противень столовой ложкой на расстоянии друг от друга.</li>
+                <li>Выпекайте 10-12 минут, или пока края не станут золотистыми.</li>
+                <li>Дайте печенью немного остыть на противне, затем переложите на решетку до полного остывания.</li>
+            </ol>
+            <p class="card-text"><small class="text-muted">Приятного аппетита!</small></p>
+        </div>
+    </div>
+</div>
+
+    <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2025 Вкусные Печеньки. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
